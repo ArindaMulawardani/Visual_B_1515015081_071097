@@ -121,6 +121,11 @@ public class KTP extends javax.swing.JFrame {
         jLabel11.setText("Agama");
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ISLAM", "PROTESTAN", "KATHOLIK", "HINDU", "BUDHA", " " }));
+        jComboBox4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox4ActionPerformed(evt);
+            }
+        });
 
         jLabel12.setText("Status");
 
@@ -208,9 +213,8 @@ public class KTP extends javax.swing.JFrame {
                                 .addComponent(kel)
                                 .addComponent(kec)
                                 .addComponent(per)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jComboBox5, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jComboBox4, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
+                                .addComponent(jComboBox5, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jComboBox4, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addContainerGap(98, Short.MAX_VALUE))
             .addComponent(jScrollPane1)
         );
@@ -353,6 +357,10 @@ public class KTP extends javax.swing.JFrame {
     private void nikActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nikActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_nikActionPerformed
+
+    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox4ActionPerformed
 
     /**
      * @param args the command line arguments
