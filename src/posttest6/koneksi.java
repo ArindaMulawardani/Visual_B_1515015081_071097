@@ -4,6 +4,11 @@
  * and open the template in the editor.
  */
 package posttest6;
+
+/**
+ *
+ * @author RizkyKiwa
+ */
 import java.sql.*;
 import javax.swing.JOptionPane;
 
